@@ -10,6 +10,7 @@
   font-size: 14px;
   border-radius: 25px;
   margin-bottom: 25px;
+  margin-top: 30px;
 }
 
 @keyframes fadeIn {
@@ -167,4 +168,8 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+a .user-component {
+  margin-bottom: 30px;
 }

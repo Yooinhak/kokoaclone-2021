@@ -73,3 +73,13 @@
   margin-left: 7px;
   opacity: 0.8;
 }
+
+.user-component__friend {
+  margin-bottom: 30px;
+}
+
+.user-component__comment {
+  width: 20px;
+  height: 20px;
+  background-color: deeppink;
+}

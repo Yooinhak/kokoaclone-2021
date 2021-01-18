@@ -1,7 +1,7 @@
 .screen-header {
   display: flex;
   position: fixed;
-  background-color: white;
+  background-color: deepskyblue;
   justify-content: space-between;
   align-items: center;
   width: 100%;

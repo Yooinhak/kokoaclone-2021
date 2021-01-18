@@ -1,14 +1,23 @@
 #no-mobile {
   position: absolute;
   z-index: 99;
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
-  background-color: yellow;
+  background-color: deeppink;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 32px;
   top: 0;
+}
+
+#no-mobile span {
+  margin: 0px 20px;
+}
+
+#no-mobile i {
+  animation: rotateCog 3s ease-in-out infinite;
+  color: turquoise;
 }
 
 @media screen and (max-width: 645px) {
