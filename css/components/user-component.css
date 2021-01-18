@@ -1,3 +1,7 @@
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -19,6 +23,8 @@
 .user-component__subtitle {
   margin-top: 5px;
   font-size: 17px;
+  display: flex;
+  align-items: center;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -29,4 +35,41 @@
 
 .friends-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-coponent__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.user-component__warning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid tomato;
+  color: tomato;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 7px;
+  opacity: 0.8;
 }
