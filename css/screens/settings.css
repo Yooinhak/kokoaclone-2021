@@ -20,3 +20,30 @@
 .settings__setting-column:last-child {
   opacity: 0.5;
 }
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
+
+.settings-list__division {
+  width: 100vw;
+  margin: 50px;
+  position: relative;
+  right: 75px;
+  background-color: black;
+  height: 1px;
+  opacity: 0.3;
+}
+
+.setting__new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  font-size: 11px;
+}

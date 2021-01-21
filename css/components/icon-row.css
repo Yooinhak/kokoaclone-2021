@@ -16,3 +16,11 @@
 .icon-row__icon span {
   margin-top: 18px;
 }
+
+.icon-row__icon:hover {
+  animation: userShow 0.5s ease-in-out forwards;
+}
+
+.more-suggestions__icon:hover {
+  animation: userShow 0.5s ease-in-out forwards;
+}

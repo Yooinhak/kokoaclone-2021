@@ -13,9 +13,14 @@
   margin-top: 30px;
 }
 
+.message-row,
+.chat__timestamp {
+  opacity: 0;
+}
+
 @keyframes fadeIn {
   from {
-    transform: translateY(30px);
+    transform: translateY(-30px);
     opacity: 0;
   }
   to {
@@ -24,11 +29,57 @@
   }
 }
 
+@keyframes fadeInX {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn-X {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.chat__timestamp {
+  animation: fadeIn 0.8s linear forwards;
+}
+
+.message-row--other {
+  animation: fadeInX 0.8s linear forwards;
+}
+
+.message-row--own {
+  animation: fadeIn-X 0.8s linear forwards;
+}
+
+.main-screen__chat .message-row:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.main-screen__chat .message-row:nth-child(3) {
+  animation-delay: 1s;
+}
+.main-screen__chat .message-row:nth-child(4) {
+  animation-delay: 1.5s;
+}
+.main-screen__chat .message-row:nth-child(5) {
+  animation-delay: 2s;
+}
+
 .main-screen__chat {
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: fadeIn 0.8s linear;
 }
 
 .message-row {
