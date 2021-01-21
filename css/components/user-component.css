@@ -1,3 +1,18 @@
+@keyframes userShow {
+  from {
+    transfrom: none;
+  }
+  to {
+    background-color: rgba(43, 105, 219, 0.5);
+    box-shadow: 5px 5px 5px 5px steelblue;
+    border-radius: 30px;
+  }
+}
+
+.user-component:hover {
+  animation: userShow 0.5s ease-in-out forwards;
+}
+
 .user-component {
   justify-content: space-between;
 }
