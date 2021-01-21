@@ -1,14 +1,10 @@
 .settings__setting {
-  padding: 20px 5px;
+  padding: 20px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.settings__setting:hover {
-  animation: userShow 0.5s ease-in-out forwards;
 }
 
 .settings__setting i {

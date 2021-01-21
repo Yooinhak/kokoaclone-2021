@@ -29,7 +29,7 @@
   top: 25px;
 }
 
-@keyframes iconFun {
+@keyframes rotateCog {
   from {
     transform: none;
   }
@@ -38,6 +38,6 @@
   }
 }
 
-.screen-header__icons i:hover {
-  animation: iconFun 1s ease-in-out forwards;
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
 }
